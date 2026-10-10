@@ -1,4 +1,5 @@
 // Profile Card Component
+
 function createProfileCard(name, role) {
     return {
         name: name,
@@ -6,3 +7,7 @@ function createProfileCard(name, role) {
         display: `${name} - ${role}`
     };
 }
+
+const profile = createProfileCard("Hashim", "Developer");
+
+console.log(profile);
